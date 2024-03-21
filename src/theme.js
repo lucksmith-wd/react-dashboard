@@ -130,7 +130,7 @@ export const themeSettings = (mode) => {
       ...(mode === "dark"
         ? {
             primary: {
-              main: colors.primary.main[500],
+              main: colors.primary[500],
             },
             secondary: {
               main: colors.greenAccent[500],
@@ -146,7 +146,7 @@ export const themeSettings = (mode) => {
           }
         : {
             primary: {
-              main: colors.primary.main[100],
+              main: colors.primary[100],
             },
             secondary: {
               main: colors.greenAccent[500],
